@@ -2,6 +2,26 @@
   text-align: center;
 }
 
-.scroll-test-div {
+.scroll-test {
+  line-height: 100px;
   height: 800px;
+}
+
+h1 {
+  background-color: brown;
+  color: white;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: beige;
+  top: 0;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: beige;
+  bottom: 0;
 }
