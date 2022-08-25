@@ -1,6 +1,8 @@
-const Portfolio = () => {
+const Portfolio = ({ portfolioRef }) => {
     return (
-        <div></div>
+        <div className="scroll-test-div">
+            <h1 ref={portfolioRef}>PORTFOLIO</h1>
+        </div>
     )
 }
 

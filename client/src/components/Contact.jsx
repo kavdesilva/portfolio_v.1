@@ -1,6 +1,8 @@
-const Contact = () => {
+const Contact = ({ contactRef }) => {
     return (
-        <div></div>
+        <div className="scroll-test-div">
+            <h1 ref={contactRef}>CONTACT</h1>
+        </div>
     )
 }
 

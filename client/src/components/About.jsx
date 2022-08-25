@@ -1,6 +1,8 @@
-const About = () => {
+const About = ({ aboutRef }) => {
     return (
-        <div></div>
+        <div className="scroll-test-div">
+            <h1 ref={aboutRef}>ABOUT</h1>
+        </div>
     )
 }
 
