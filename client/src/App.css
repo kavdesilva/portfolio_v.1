@@ -2,26 +2,64 @@
   text-align: center;
 }
 
-.scroll-test {
+.scroll-to h1 {
   line-height: 100px;
-  height: 800px;
+  background-color: white;
+  color: white;
 }
 
-h1 {
-  background-color: brown;
-  color: white;
+section {
+  height: 800px;
 }
 
 .nav {
   position: fixed;
   width: 100%;
-  background-color: beige;
   top: 0;
 }
 
 .footer {
   position: fixed;
   width: 100%;
-  background-color: beige;
+  background-color: darkblue;
+  color: white;
   bottom: 0;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  color: white;
+}
+
+.home, .home h1 {
+  background-color: red;
+}
+
+.home section {
+  background-color: rgb(250, 122, 122);
+}
+
+.about, .about h1 {
+  background-color: orange;
+}
+
+.about section {
+  background-color: rgb(249, 192, 87);
+}
+
+.portfolio, .portfolio h1 {
+  background-color: gold;
+}
+
+.portfolio section {
+  background-color: rgb(250, 231, 123);
+}
+
+.contact, .contact h1 {
+  background-color: green;
+}
+
+.contact section {
+  background-color: rgb(101, 177, 101);
 }

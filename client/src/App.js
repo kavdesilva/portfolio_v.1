@@ -32,9 +32,9 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <Nav handleClickHome={handleClickHome}
-             handleClickAbout={handleClickAbout}
-             handleClickPortfolio={handleClickPortfolio}
-             handleClickContact={handleClickContact}/>
+            handleClickAbout={handleClickAbout}
+            handleClickPortfolio={handleClickPortfolio}
+            handleClickContact={handleClickContact}/> 
       </header>
       <main>
         <Home homeRef={homeRef}/>

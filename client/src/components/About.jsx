@@ -1,7 +1,10 @@
 const About = ({ aboutRef }) => {
     return (
-        <div className="scroll-test">
-            <h1 ref={aboutRef}>ABOUT</h1>
+        <div className="scroll-to about" ref={aboutRef}>
+            <h1>ABOUT</h1>
+            <section>
+                <p>this is the about section.</p>
+            </section>
         </div>
     )
 }
