@@ -7,7 +7,7 @@ const Nav = ({ handleClickHome, handleClickAbout, handleClickPortfolio, handleCl
             <button className='about' onClick={handleClickAbout}>about</button>
             <button className='portfolio' onClick={handleClickPortfolio}>portfolio</button>
             <button className='blog' onClick={handleClickBlog}>blog</button>
-            <button className='contact' id='contact-button' onClick={handleClickContact}>contact</button>
+            <button className='contact' onClick={handleClickContact}>contact</button>
         </div>
     )
 }
