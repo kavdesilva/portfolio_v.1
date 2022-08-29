@@ -3,50 +3,54 @@
   margin: 0 auto;
 }
 
-main {
-  width: 100%;
-}
-
-.scroll-to h1 {
-  height: 8rem;
-  line-height: 12rem;
-  background-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-}
-
-section {
-  height: 48rem;
-}
-
 .nav {
   position: fixed;
   width: 100%;
-  /* background-image: url('/Users/kristinadesilva/Desktop/GA/unit04/portfolio_v.1/client/assets/pride.jpeg');
-  background-size: contain; */
   background: linear-gradient(rgb(255, 0, 0) 16.6%, 
                               rgb(255, 140, 0) 16.6%, rgb(255, 140, 0) 33.2%, 
                               rgb(255, 215, 0) 33.2%, rgb(255, 215, 0) 49.8%, 
                               rgb(2, 152, 2) 49.8%, rgb(2, 152, 2) 66.4%, 
                               rgb(0, 0, 225) 66.4%, rgb(0, 0, 225) 83%, 
                               rgb(131, 45, 173) 83%, rgb(131, 45, 173) 100%);
-  top: 0;
 }
 
 .footer {
   position: fixed;
-  height: 4rem;
+  height: 5rem;
   width: 100%;
   background-color: rgb(131, 45, 173);
   color: rgb(255, 255, 255);
   bottom: 0;
 }
 
-button {
-  height: 4rem;
-  width: 100px;
+.scroll-to h1 {
+  height: 6rem;
+  background-color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
-  border: 2px solid white;
-  margin-inline: -1px;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+section {
+  height: 50rem;
+  font-size: 2rem;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 600px;
+}
+
+.button {
+  height: 5rem;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home, .home h1 {
@@ -87,5 +91,5 @@ button {
 
 .contact section {
   background-color: rgb(108, 108, 252);
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
