@@ -1,6 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 * {
+  color: white;
   text-align: center;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav {
@@ -21,7 +29,10 @@
   background-color: rgb(131, 45, 173);
   color: rgb(255, 255, 255);
   bottom: 0;
-  font-size: 2rem;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  border-top: 5px solid white;
 }
 
 .scroll-to h1 {
@@ -34,7 +45,74 @@
 
 section {
   height: 50rem;
+  width: 97%;
+  border: 5px solid white;
   font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 45%;
+  justify-items: center;
+  padding: 0 125px 25px 125px;
+  border-bottom: 5px solid white;
+}
+
+.bi {
+  margin: 5px;
+  padding: 0 15px;
+}
+
+.bi:hover {
+  cursor: pointer;
+  border-left: 5px solid white;
+}
+
+.about-me {
+  font-size: 1.6rem;
+  width: 60%;
+}
+
+.about-me p {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
+.profile-image{
+  width: 225px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+  margin: 15px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  width: 90%;
+}
+
+.portfolio-card {
+  background-color: rgb(255, 215, 0);
+  height: 300px;
+  width: 95%;
+  margin: 15px;
+  font-size: 1.6rem;
+}
+
+.portfolio-card:hover {
+  cursor: pointer;
+  border-left: 6px solid white;
+}
+
+.portfolio-image {
+  margin-top: 15px;
+  height: 80%;
 }
 
 .buttons-container {
@@ -56,6 +134,7 @@ section {
 
 .button:hover {
   cursor: pointer;
+  border-left: 5px solid white;
 }
 
 .home, .home h1 {

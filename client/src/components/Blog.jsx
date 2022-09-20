@@ -3,7 +3,7 @@ const Blog = ({ blogRef }) => {
         <div className="scroll-to blog" ref={blogRef}>
             <h1>BLOG</h1>
             <section>
-                <p>blog stuff</p>
+                <p>coming soon.</p>
             </section>
         </div>
     )
