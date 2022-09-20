@@ -1,4 +1,4 @@
-import Moonsweepr1 from '../assets/moonsweepr_screenshot_1.png'
+import Moonsweepr from '../assets/moonsweepr_screenshot_1.png'
 
 const Portfolio = ({ portfolioRef }) => {
     return (
@@ -7,17 +7,28 @@ const Portfolio = ({ portfolioRef }) => {
             <section>
                 <div className="portfolio-grid">
                     <div className="portfolio-card">
-                        <img src={Moonsweepr1} alt="" className='portfolio-image'/>
-                        <p>moonsweepr</p>
+                        <a href="">
+                            <img src={Moonsweepr} alt="moonsweepr screenshot" className='portfolio-image'/>
+                            <p>moonsweepr</p>
+                        </a>
                     </div>
                     <div className="portfolio-card">
-                        <p>author website template</p>
+                        <a href="">
+                            <img src="" alt="author website template screenshot" className='portfolio-image'/>
+                            <p>author website (template)</p>
+                        </a>
                     </div>
                     <div className="portfolio-card">
-                        <p>CycleList</p>
+                        <a href="">
+                            <img src="" alt="cyclelist screenshot" className='portfolio-image'/>
+                            <p>CycleList</p>
+                        </a>
                     </div>
                     <div className="portfolio-card">
-                        <p>hekate</p>
+                        <a href="">
+                            <img src="" alt="hekate screenshot" className='portfolio-image'/>
+                            <p>hekate</p>
+                        </a>
                     </div>
                 </div>
             </section>
