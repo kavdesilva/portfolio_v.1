@@ -7,25 +7,25 @@ const Portfolio = ({ portfolioRef }) => {
             <section>
                 <div className="portfolio-grid">
                     <div className="portfolio-card">
-                        <a href="">
+                        <a href="http://moonsweepr.surge.sh/" target="_blank">
                             <img src={Moonsweepr} alt="moonsweepr screenshot" className='portfolio-image'/>
                             <p>moonsweepr</p>
                         </a>
                     </div>
                     <div className="portfolio-card">
-                        <a href="">
+                        <a href="https://github.com/kavdesilva/author_website" target="_blank">
                             <img src="" alt="author website template screenshot" className='portfolio-image'/>
                             <p>author website (template)</p>
                         </a>
                     </div>
                     <div className="portfolio-card">
-                        <a href="">
+                        <a href="https://github.com/frank-booth/CycleList_Frontend" target="_blank">
                             <img src="" alt="cyclelist screenshot" className='portfolio-image'/>
                             <p>CycleList</p>
                         </a>
                     </div>
                     <div className="portfolio-card">
-                        <a href="">
+                        <a href="https://github.com/kavdesilva/Hekate" target="_blank">
                             <img src="" alt="hekate screenshot" className='portfolio-image'/>
                             <p>hekate</p>
                         </a>

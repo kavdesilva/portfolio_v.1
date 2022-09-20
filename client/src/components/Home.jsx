@@ -27,7 +27,15 @@ const Home = ({ homeRef }) => {
                     </a>
                 </div><br />
                 <h2>kristina van-bergen desilva</h2>
-                <h2>software engineer</h2>
+                <h2>software engineer</h2><br />
+                <div className="skill-suite">
+                    <h3>programming languages:</h3>
+                    <p>JavaScript, HTML, CSS, Python3/Django</p>
+                    <h3>frameworks & libraries:</h3>
+                    <p>Node.js/Express, Mongoose, React.JS, Vue.JS</p>
+                    <h3>database:</h3>
+                    <p>MongoDB, PostgreSQL, SQL</p>
+                </div>
             </section>
         </div>
     )
