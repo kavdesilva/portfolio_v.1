@@ -16,62 +16,38 @@ a {
 }
 
 .scroll-to h1 {
-  height: 6rem;
+  height: 14rem;
   color: rgb(255, 255, 255);
-  font-size: 5rem;
+  font-size: 12rem;
   font-weight: 600;
 }
 
 section {
-  height: 50rem;
-  width: 97%;
-  border: 5px solid white;
-  font-size: 2rem;
+  height: 97rem;
+  width: 90%;
+  border: 9px solid white;
+  font-size: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.home, .home h1 {
-  background-color: rgb(255, 0, 0);
-}
-
-.home section {
-  background-color: rgb(250, 122, 122);
-}
-
-.about, .about h1 {
-  background-color: rgb(255, 140, 0);
-}
-
-.about section {
-  background-color: rgb(251, 178, 88);
-}
-
-.portfolio, .portfolio h1 {
-  background-color: rgb(255, 215, 0);
-}
-
-.portfolio section {
-  background-color: rgb(250, 231, 123);
-  height: min-content;
-}
-
-.blog, .blog h1 {
-  background-color: rgb(2, 152, 2);
-}
-
-.blog section {
-  background-color: rgb(118, 185, 118);
-}
-
-.contact, .contact h1 {
-  background-color: rgb(0, 0, 225);
-}
-
-.contact section {
-  background-color: rgb(108, 108, 252);
-  margin-bottom: 4rem;
+@media (min-width: 1170px) {
+  .scroll-to h1 {
+    height: 6rem;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+  
+  section {
+    height: 50rem;
+    width: 97%;
+    border: 5px solid white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 
@@ -91,14 +67,14 @@ section {
 .buttons-container {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  width: 600px;
+  width: 100%;
 }
 
 .button {
-  height: 5.1rem;
-  width: 120px;
+  height: 14rem;
+  width: 101%;
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-family: sans-serif;
   display: flex;
   align-items: center;
@@ -107,58 +83,144 @@ section {
 
 .button:hover {
   cursor: pointer;
-  border-left: 5px solid white;
+  border-left: 10px solid white;
+}
+
+@media (min-width: 1170px) {
+  .buttons-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 600px;
+  }
+  
+  .button {
+    height: 5.1rem;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button:hover {
+    cursor: pointer;
+    border-left: 5px solid white;
+  }
 }
 
 
 /* -- home -- */
 
+.home, .home h1 {
+  background-color: rgb(255, 0, 0);
+}
+
+.home section {
+  background-color: rgb(250, 122, 122);
+}
+
 .icons {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  width: 45%;
+  width: 65%;
   justify-items: center;
   padding: 0 125px 25px 125px;
-  border-bottom: 5px solid white;
+  border-bottom: 10px solid white;
 }
 
 .bi {
+  width: 150px;
   margin: 5px;
   padding: 0 15px;
 }
 
 .bi:hover {
   cursor: pointer;
-  border-left: 5px solid white;
+  border-left: 10px solid white;
 }
 
 .skill-suite {
-  font-size: 1.6rem;
+  font-size: 3.7rem;
+}
+
+.skill-suite p {
+  font-size: 3.1rem;
+  padding: 10px;
+}
+
+@media (min-width: 1170px) {
+  .icons {
+    width: 45%;
+    justify-items: center;
+    padding: 0 125px 25px 125px;
+    border-bottom: 5px solid white;
+  }
+
+  .bi {
+    width: 84px;
+    margin: 5px;
+    padding: 0 15px;
+  }
+
+  .skill-suite {
+    font-size: 1.6rem;
+  }
+
+  .skill-suite p {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+  }
 }
 
 
 /* -- about me -- */
 
-.about-me {
-  font-size: 1.8rem;
-  width: 60%;
+.about, .about h1 {
+  background-color: rgb(255, 140, 0);
 }
 
-.skill-suite p {
-  font-size: 1.4rem;
-  padding-bottom: 10px;
+.about section {
+  background-color: rgb(251, 178, 88);
+}
+
+.about-me {
+  font-size: 3.1rem;
+  width: 80%;
 }
 
 .about-me-image{
-  max-width: 250px;
+  max-width: 500px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 10px solid white;
   box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
   margin: 15px;
 }
 
+@media (min-width: 1170px) {
+  .about-me {
+    font-size: 1.8rem;
+    width: 60%;
+  }
+
+  .about-me-image{
+    max-width: 250px;
+    border: 5px solid white;
+  }
+}
+
 
 /* -- portfolio -- */
+
+.portfolio, .portfolio h1 {
+  background-color: rgb(255, 215, 0);
+}
+
+.portfolio section {
+  background-color: rgb(250, 231, 123);
+  height: min-content;
+}
 
 .portfolio-grid {
   display: grid;
@@ -168,21 +230,25 @@ section {
 
 .portfolio-card {
   background-color: rgb(246, 221, 75);
-  width: 85%;
+  width: 90%;
   margin: 15px;
   padding: 10px;
-  font-size: 1.1rem;
+  font-size: 3rem;
+}
+
+.portfolio-card p {
+  font-size: 2.5rem;
 }
 
 .portfolio-card:hover {
   background-color: rgb(255, 215, 0);
   cursor: pointer;
-  border-left: 6px solid white;
+  border-left: 10px solid white;
 }
 
 .portfolio-image {
-  width: 65%;
-  max-width: 500px;
+  width: 90%;
+  margin: 15px 0;
   border: 2px solid white;
   box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
 }
@@ -195,8 +261,28 @@ section {
   .portfolio-grid {
     grid-template-columns: 50% 50%;
   }
+
+  .portfolio-card {
+    background-color: rgb(246, 221, 75);
+    width: 85%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+  .portfolio-card p {
+    font-size: 1.1rem;
+  }
+  
+  .portfolio-card:hover {
+    background-color: rgb(255, 215, 0);
+    cursor: pointer;
+    border-left: 6px solid white;
+  }
   
   .portfolio-image {
+    width: 70%;
+    margin: 0;
     max-width: 370px;
   }
 }
@@ -204,17 +290,35 @@ section {
 
 /* -- blog - coming soon -- */
 
+.blog, .blog h1 {
+  background-color: rgb(2, 152, 2);
+}
+
+.blog section {
+  background-color: rgb(118, 185, 118);
+}
+
 
 /* -- contact me -- */
 
+.contact, .contact h1 {
+  background-color: rgb(0, 0, 225);
+}
+
+.contact section {
+  background-color: rgb(108, 108, 252);
+  margin-bottom: 9rem;
+}
+
 .form-container input{
-  width: 300px;
-  height: 25px;
+  width: 500px;
+  height: 60px;
   color: black;
 }
 
 .form-container textarea{
-  width: 300px;
+  width: 500px;
+  height: 400px;
   color: black;
 }
 
@@ -223,29 +327,71 @@ section {
   border: none;
   background-color: rgb(0, 0, 225);
   color: white;
-  font-size: 1.5rem;
-  width: 150px;
-  height: 75px;
+  font-size: 3.3rem;
+  width: 300px;
+  height: 130px;
 }
 
 fieldset {
-  border: 5px solid white;
+  border: 10px solid white;
   margin: 15px 0;
 }
+
+@media (min-width: 1170px) {
+  .contact section {
+    margin-bottom: 4rem;
+  }
+  
+  .form-container input{
+    width: 300px;
+    height: 25px;
+  }
+  
+  .form-container textarea{
+    width: 300px;
+    height: 200px;
+  }
+  
+  .form-container button {
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    width: 150px;
+    height: 75px;
+  }
+  
+  fieldset {
+    border: 5px solid white;
+  }
+}
+
 
 /* -- footer -- */
 
 .footer {
   position: fixed;
-  height: 4rem;
+  height: 9rem;
   width: 100%;
   background-color: rgb(131, 45, 173);
   color: rgb(255, 255, 255);
   bottom: 0;
-  font-size: 1.25rem;
+  font-size: 2.2rem;
   display: flex;
   align-items: center;
-  border-top: 5px solid white;
+  border-top: 10px solid white;
+}
+
+.footer-icons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 30%;
+  justify-items: right;
+}
+
+.footer .bi {
+  width: 50px;
+  margin: 5px;
+  padding: 0 15px;
 }
 
 .footer .bi:hover {
@@ -253,3 +399,33 @@ fieldset {
   border-left: 2px solid white;
 }
 
+@media (min-width: 1170px) {
+  .footer {
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    border-top: 5px solid white;
+  }
+
+  .footer-icons {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 25%;
+    justify-items: center;
+  }
+
+  .footer .bi {
+    width: 25px;
+    margin: 5px;
+    padding: 0 15px;
+  }
+  
+  .footer .bi:hover {
+    cursor: pointer;
+    border-left: 3px solid white;
+  }
+}

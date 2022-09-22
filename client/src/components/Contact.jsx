@@ -24,7 +24,7 @@ const Contact = ({ contactRef }) => {
                                 required={true}/>
 
                             <label htmlFor="message"><p>message</p></label>
-                            <textarea rows="12" 
+                            <textarea rows="15" 
                                       name="message" 
                                       id="message" 
                                       placeholder=" " 
