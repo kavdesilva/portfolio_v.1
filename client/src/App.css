@@ -8,171 +8,11 @@
   text-shadow: 2px 3px 6px rgba(81,67,21,0.8);
 }
 
+
+/* -- main -- */
+
 a {
   text-decoration: none;
-}
-
-.nav {
-  position: fixed;
-  width: 100%;
-  background: linear-gradient(rgb(255, 0, 0) 16.6%, 
-                              rgb(255, 140, 0) 16.6%, rgb(255, 140, 0) 33.2%, 
-                              rgb(255, 215, 0) 33.2%, rgb(255, 215, 0) 49.8%, 
-                              rgb(2, 152, 2) 49.8%, rgb(2, 152, 2) 66.4%, 
-                              rgb(0, 0, 225) 66.4%, rgb(0, 0, 225) 83%, 
-                              rgb(131, 45, 173) 83%, rgb(131, 45, 173) 100%);
-}
-
-.footer {
-  position: fixed;
-  height: 5rem;
-  width: 100%;
-  background-color: rgb(131, 45, 173);
-  color: rgb(255, 255, 255);
-  bottom: 0;
-  font-size: 1.25rem;
-  display: flex;
-  align-items: center;
-  border-top: 5px solid white;
-}
-
-.footer .bi:hover {
-  cursor: pointer;
-  border-left: 2px solid white;
-}
-
-.scroll-to h1 {
-  height: 6rem;
-  background-color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  font-size: 5rem;
-  font-weight: 600;
-}
-
-section {
-  height: 49rem;
-  width: 97%;
-  border: 5px solid white;
-  font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.icons {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  width: 45%;
-  justify-items: center;
-  padding: 0 125px 25px 125px;
-  border-bottom: 5px solid white;
-}
-
-.bi {
-  margin: 5px;
-  padding: 0 15px;
-}
-
-.bi:hover {
-  cursor: pointer;
-  border-left: 5px solid white;
-}
-
-.skill-suite {
-  font-size: 1.6rem;
-}
-
-.about-me {
-  font-size: 1.6rem;
-  width: 60%;
-}
-
-.skill-suite p {
-  font-size: 1.4rem;
-  padding-bottom: 10px;
-}
-
-.profile-image{
-  width: 225px;
-  border-radius: 50%;
-  border: 5px solid white;
-  box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
-  margin: 15px;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  justify-items: center;
-  width: 90%;
-}
-
-.portfolio-card {
-  background-color: rgb(246, 221, 75);
-  width: 90%;
-  margin: 15px;
-  padding: 15px;
-  font-size: 1.1rem;
-}
-
-.portfolio-card:hover {
-  background-color: rgb(255, 215, 0);
-  cursor: pointer;
-  border-left: 6px solid white;
-}
-
-.portfolio-image {
-  height: 250px;
-  border: 2px solid white;
-  box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
-}
-
-.form-container input{
-  width: 300px;
-  height: 25px;
-  color: black;
-}
-
-.form-container textarea{
-  width: 300px;
-  color: black;
-}
-
-.form-container button {
-  text-decoration: none;
-  border: none;
-  background-color: rgb(0, 0, 225);
-  color: white;
-  font-size: 1.5rem;
-  width: 150px;
-  height: 75px;
-}
-
-fieldset {
-  border: 5px solid white;
-  margin: 15px 0;
-}
-
-.buttons-container {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  width: 600px;
-}
-
-.button {
-  height: 5rem;
-  width: 120px;
-  color: rgb(255, 255, 255);
-  font-size: 1.5rem;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button:hover {
-  cursor: pointer;
-  border-left: 5px solid white;
 }
 
 .home, .home h1 {
@@ -215,3 +55,185 @@ fieldset {
   background-color: rgb(108, 108, 252);
   margin-bottom: 5rem;
 }
+
+
+/* -- nav -- */
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgb(255, 0, 0) 16.6%, 
+                              rgb(255, 140, 0) 16.6%, rgb(255, 140, 0) 33.2%, 
+                              rgb(255, 215, 0) 33.2%, rgb(255, 215, 0) 49.8%, 
+                              rgb(2, 152, 2) 49.8%, rgb(2, 152, 2) 66.4%, 
+                              rgb(0, 0, 225) 66.4%, rgb(0, 0, 225) 83%, 
+                              rgb(131, 45, 173) 83%, rgb(131, 45, 173) 100%);
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 600px;
+}
+
+.button {
+  height: 5rem;
+  width: 120px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  border-left: 5px solid white;
+}
+
+.scroll-to h1 {
+  height: 6rem;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+section {
+  height: 49rem;
+  width: 97%;
+  border: 5px solid white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 45%;
+  justify-items: center;
+  padding: 0 125px 25px 125px;
+  border-bottom: 5px solid white;
+}
+
+.bi {
+  margin: 5px;
+  padding: 0 15px;
+}
+
+.bi:hover {
+  cursor: pointer;
+  border-left: 5px solid white;
+}
+
+.skill-suite {
+  font-size: 1.6rem;
+}
+
+
+/* -- about me -- */
+
+.about-me {
+  font-size: 1.6rem;
+  width: 60%;
+}
+
+.skill-suite p {
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+}
+
+
+/* -- portfolio -- */
+
+.profile-image{
+  width: 225px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+  margin: 15px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  width: 90%;
+}
+
+.portfolio-card {
+  background-color: rgb(246, 221, 75);
+  width: 85%;
+  margin: 15px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.portfolio-card:hover {
+  background-color: rgb(255, 215, 0);
+  cursor: pointer;
+  border-left: 6px solid white;
+}
+
+.portfolio-image {
+  width: 65%;
+  max-width: 360px;
+  border: 2px solid white;
+  box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+}
+
+
+/* -- blog - coming soon -- */
+
+
+
+/* -- contact me -- */
+
+.form-container input{
+  width: 300px;
+  height: 25px;
+  color: black;
+}
+
+.form-container textarea{
+  width: 300px;
+  color: black;
+}
+
+.form-container button {
+  text-decoration: none;
+  border: none;
+  background-color: rgb(0, 0, 225);
+  color: white;
+  font-size: 1.5rem;
+  width: 150px;
+  height: 75px;
+}
+
+fieldset {
+  border: 5px solid white;
+  margin: 15px 0;
+}
+
+/* -- footer -- */
+
+.footer {
+  position: fixed;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(131, 45, 173);
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  border-top: 5px solid white;
+}
+
+.footer .bi:hover {
+  cursor: pointer;
+  border-left: 2px solid white;
+}
+
