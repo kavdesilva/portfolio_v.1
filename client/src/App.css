@@ -15,6 +15,23 @@ a {
   text-decoration: none;
 }
 
+.scroll-to h1 {
+  height: 6rem;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+section {
+  height: 50rem;
+  width: 97%;
+  border: 5px solid white;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .home, .home h1 {
   background-color: rgb(255, 0, 0);
 }
@@ -37,6 +54,7 @@ a {
 
 .portfolio section {
   background-color: rgb(250, 231, 123);
+  height: 100rem;
 }
 
 .blog, .blog h1 {
@@ -53,7 +71,7 @@ a {
 
 .contact section {
   background-color: rgb(108, 108, 252);
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 
@@ -77,7 +95,7 @@ a {
 }
 
 .button {
-  height: 5rem;
+  height: 5.1rem;
   width: 120px;
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
@@ -92,22 +110,8 @@ a {
   border-left: 5px solid white;
 }
 
-.scroll-to h1 {
-  height: 6rem;
-  color: rgb(255, 255, 255);
-  font-size: 5rem;
-  font-weight: 600;
-}
 
-section {
-  height: 49rem;
-  width: 97%;
-  border: 5px solid white;
-  font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+/* -- home -- */
 
 .icons {
   display: grid;
@@ -136,7 +140,7 @@ section {
 /* -- about me -- */
 
 .about-me {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   width: 60%;
 }
 
@@ -145,22 +149,32 @@ section {
   padding-bottom: 10px;
 }
 
-
-/* -- portfolio -- */
-
-.profile-image{
-  width: 225px;
+.about-me-image{
+  max-width: 250px;
   border-radius: 50%;
   border: 5px solid white;
   box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
   margin: 15px;
 }
 
+
+/* -- portfolio -- */
+
 .portfolio-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
   justify-items: center;
   width: 90%;
+}
+
+@media (min-width: 768px) {
+  .portfolio section {
+    height: 50rem;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 50% 50%;
+  }
+  
 }
 
 .portfolio-card {
@@ -186,7 +200,6 @@ section {
 
 
 /* -- blog - coming soon -- */
-
 
 
 /* -- contact me -- */
@@ -221,7 +234,7 @@ fieldset {
 
 .footer {
   position: fixed;
-  height: 5rem;
+  height: 4rem;
   width: 100%;
   background-color: rgb(131, 45, 173);
   color: rgb(255, 255, 255);
