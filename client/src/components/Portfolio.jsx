@@ -26,7 +26,7 @@ const Portfolio = ({ portfolioRef }) => {
                         </a>
                     </div>
                     <div className="portfolio-card">
-                        <a href="https://github.com/frank-booth/CycleList_Frontend" target="_blank">
+                        <a href="https://mighty-scrubland-76268.herokuapp.com/" target="_blank">
                             <img src={CycleList} alt="cyclelist screenshot" className='portfolio-image'/>
                             <h3>CycleList</h3>
                             <p>a collaboration by a team of three developers, CycleList is a web application for creating cycle routines to your favorite tunes.</p>
